@@ -7,7 +7,7 @@ username <- username |> stringr::str_remove_all(" ")
 email <- email |> stringr::str_remove_all(" ")
 
 ## set your user name and email:
-usethis::use_git_config(user.name = username, user.email = email)
+usethis::use_git_config(user.name = "Xiemuying", user.email = "s411373060@gm.ntpu.edu.tw")
 
 ## create a personal access token for authentication:
 usethis::create_github_token() 
